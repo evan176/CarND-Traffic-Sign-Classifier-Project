@@ -151,3 +151,8 @@ Here are the results of the prediction:
 The followings are visualization of feature maps of layer1 and layer2 in MyCNN. I found network emphasize the edge of sign like we did in edge detection.
 ![Layer1][conv1]
 ![Layer2][conv2]
+
+
+## References
+1. https://github.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project/
+1. https://github.com/Goddard/udacity-traffic-sign-classifier/
