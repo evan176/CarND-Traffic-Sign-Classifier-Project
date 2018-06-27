@@ -112,6 +112,7 @@ I decided to generate additional data because unbalanced problem. I choose overs
 To add more data to the the data set, I used the augmentation techniques because we need more data to avoid overfitting for small dataset. So I randomly add rotation (-15 ~ 15 degress) to images.
 
 Followings are rotation examples:
+
 ![][rotate_0]
 ![][rotate_1]
 ![][rotate_2]
@@ -173,6 +174,7 @@ MyCNN model (oversampling, random augmentation, dropout) results were:
 * test set accuracy of ? 0.9795
 
 Followings are detailed for each experiments:
+
 | | LeNet5 | MyCNN |
 :----------------------------:|:----------------------------:|:--------------------------:
 Raw | ![][l5] | ![][my]
