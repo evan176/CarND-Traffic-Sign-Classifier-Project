@@ -47,6 +47,9 @@ The goals / steps of this project are the following:
 [conv1]: ./traffic-signs-data/result/vis_conv1.png
 [conv2]: ./traffic-signs-data/result/vis_conv2.png
 
+[l5_cm]: ./traffic-signs-data/result/l5_cm.png
+[my_cm]: ./traffic-signs-data/result/my_cm.png
+
 [l5]: ./traffic-signs-data/result/l5.png
 [l5_dropout]: ./traffic-signs-data/result/l5_dropout.png
 [l5-over]: ./traffic-signs-data/result/l5-over.png
@@ -168,10 +171,16 @@ LeNet5 model (oversampling, random augmentation, dropout) results were:
 * validation set accuracy of ? 0.9723
 * test set accuracy of ? 0.9546
 
+#### Confusion matrix for validation
+![][l5_cm]
+
 MyCNN model (oversampling, random augmentation, dropout) results were:
 * training set accuracy of ? 0.9995
 * validation set accuracy of ? 0.9923
 * test set accuracy of ? 0.9795
+
+#### Confusion matrix for validation
+![][my_cm]
 
 Followings are detailed for each experiments:
 
